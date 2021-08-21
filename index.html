@@ -54,6 +54,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li>
+         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -374,6 +377,74 @@
       </div>
     </section>
    
+     <!--====================================================
+                          CONTACT
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+      <form action="POST" data-netlify="true">
+        <div class="row my-auto" id="contact">
+          <div class="col-md-8">
+            <div class="contact-cont">
+              <h3>Contact Me</h3>
+              <div class="heading-border-light"></div>
+              <p>Please fill the form below</p>
+            </div>
+            <div class="row con-form">
+              <div class="col-md-12">
+                <input type="text" name="name" id="name" placeholder="Full Name" class="form-control" autocomplete="off"
+                  required>
+              </div>
+              <div class="col-md-12">
+                <input type="email" name="email" id="email" placeholder="Email" class="form-control" autocomplete="off"
+                  required>
+              </div>
+              <div class="col-md-12">
+                <input type="text" name="subject" id="subject" placeholder="Subject" class="form-control"
+                  autocomplete="off" required>
+              </div>
+              <div class="col-md-12"><textarea name="message" id="message" placeholder="Message body..."
+                  required></textarea>
+                <label for="myfile">(Optional)</label>
+                <input id="myfile" name="myfile" type="file" />
+              </div>
+              <div class="col-md-12 mt-3 mb-2">
+                <div data-netlify-recaptcha="true"></div>
+              </div>
+              <div class="col-md-12 mt-3 sub-but">
+                <button type="submit" class="btn btn-general btn-white" role="button">Send</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mt-5">
+            <div class="contact-cont2">
+              <div class="contact-add contact-box-desc">
+                <h3><i class="fas fa-map-marker-alt mr-2"></i> Address</h3>
+                <p>Surulere <br>
+                  Lagos, Nigeria <br></p>
+              </div>
+              <div class="contact-phone contact-side-desc contact-box-desc">
+                <h3><i class="fa fa-phone mr-2"></i> Phone</h3>
+                <p>+234 803 514 2075</p>
+              </div>
+              <div class="contact-mail contact-side-desc contact-box-desc">
+                <h3><i class="fas fa-paper-plane mr-2"></i> Email</h3>
+                <address class="address-details-f">
+                  <a href="mailto:melfordbirakor@gmail.com" target="_blank">melfordbirakor@gmail.com</a>
+                </address>
+                <ul class="list-inline social-icon-f top-data">
+                  <li><a href="https://web.facebook.com/melford.birakor" target="_blank"><i
+                        class="fab top-social fa-facebook" style="color: #4267b2; border-color:#4267b2;"></i></a></li>
+                  <li><a href="https://twitter.com/melford_d?s=09" target="_blank"><i class="fab top-social fa-twitter"
+                        style="color: #4AB3F4; border-color:#4AB3F4;"></i></a></li>
+                  <li><a href="https://github.com/Melford-D" target="_blank"><i class="fab top-social fa-github"
+                        style="text-align: center; color: #000; border-color:#000;"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
 
       <!-- Google Map -->
     <section class=" d-flex flex-column" id="maps">
